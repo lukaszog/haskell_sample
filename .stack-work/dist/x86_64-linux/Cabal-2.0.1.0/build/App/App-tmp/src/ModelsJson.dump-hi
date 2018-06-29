@@ -1,0 +1,404 @@
+
+==================== FINAL INTERFACE ====================
+2018-06-29 14:42:40.656175 UTC
+
+interface main:ModelsJson [orphan module] 8022
+  interface hash: f4749a7f6e74f0dee0d0d48cfe7cf78f
+  ABI hash: 3c2134827a743b372dabc9769c0d26cb
+  export-list hash: 34e2bd9854b2f6bf9f98a6b8cdecafd1
+  orphan hash: e0cefd5efe779efa8fee1110d87cc6fe
+  flag hash: 1f451ba588f110e3d7c4c8277fb73fa7
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+module dependencies: Models
+package dependencies: aeson-1.2.4.0 aeson-compat-0.3.8
+                      array-0.5.2.0 attoparsec-0.13.2.2 attoparsec-iso8601-1.0.0.0
+                      auto-update-0.1.4 base-4.10.1.0 base-compat-0.9.3
+                      base64-bytestring-1.0.0.1 binary-0.8.5.1 blaze-html-0.9.1.1
+                      blaze-markup-0.8.2.1 bytestring-0.10.8.2 case-insensitive-1.2.0.11
+                      conduit-1.3.0.3 conduit-extra-1.3.0 containers-0.5.10.2
+                      deepseq-1.4.3.0 directory-1.3.0.2 dlist-0.8.0.4 easy-file-0.2.2
+                      exceptions-0.8.3 fast-logger-2.4.11 filepath-1.4.1.2
+                      ghc-boot-th-8.2.2 ghc-prim-0.5.1.1 hashable-1.2.7.0
+                      haskell-src-exts-1.20.2 haskell-src-meta-0.8.0.3
+                      http-api-data-0.3.7.2 http-types-0.12.1 integer-gmp-1.0.1.0
+                      integer-logarithms-1.0.2.1 lifted-base-0.2.3.12
+                      monad-control-1.0.2.3 monad-logger-0.3.28.5 monad-loops-0.4.3
+                      mtl-2.2.2 old-locale-1.0.0.7 old-time-1.1.0.3 path-pieces-0.2.1
+                      persistent-2.8.2 persistent-template-2.5.4 pretty-1.1.3.3
+                      primitive-0.6.4.0 random-1.1 resource-pool-0.2.3.2 resourcet-1.2.1
+                      scientific-0.3.6.2 silently-1.2.5 stm-2.4.5.0 stm-chans-3.0.0.4
+                      tagged-0.8.5 template-haskell-2.12.0.0 text-1.2.3.0 time-1.8.0.2
+                      time-locale-compat-0.1.1.4 transformers-0.5.2.0
+                      transformers-base-0.4.4 unix-2.7.2.2 unix-time-0.3.8
+                      unliftio-core-0.1.1.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.1
+orphans: persistent-template-2.5.4:Database.Persist.TH
+         haskell-src-exts-1.20.2:Language.Haskell.Exts.Parser
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         unix-time-0.3.8:Data.UnixTime.Diff
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         stm-2.4.5.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic
+         transformers-0.5.2.0:Control.Monad.Trans.Error
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         text-1.2.3.0:Data.Text.Lazy text-1.2.3.0:Data.Text
+         binary-0.8.5.1:Data.Binary.Generic
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         text-1.2.3.0:Data.Text.Show
+         bytestring-0.10.8.2:Data.ByteString.Builder base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: aeson-1.2.4.0:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.10.1.0:Control.Applicative base-4.10.1.0:Data.Complex
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Compose
+                         base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+                         conduit-1.3.0.3:Data.Conduit.Internal.Conduit
+                         conduit-1.3.0.3:Data.Conduit.Internal.Pipe
+                         containers-0.5.10.2:Data.IntMap.Internal
+                         containers-0.5.10.2:Data.IntSet.Internal
+                         containers-0.5.10.2:Data.Map.Internal
+                         containers-0.5.10.2:Data.Sequence.Internal
+                         containers-0.5.10.2:Data.Set.Internal containers-0.5.10.2:Data.Tree
+                         dlist-0.8.0.4:Data.DList ghc-boot-th-8.2.2:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.2.2:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.Syntax main:Models
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         monad-logger-0.3.28.5:Control.Monad.Logger
+                         persistent-2.8.2:Database.Persist.Class.PersistConfig
+                         persistent-2.8.2:Database.Persist.Class.PersistEntity
+                         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.8.2:Database.Persist.Sql.Types.Internal
+                         pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.1:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.5:Data.Tagged
+                         template-haskell-2.12.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.0:Data.Text text-1.2.3.0:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+import  -/  aeson-1.2.4.0:Data.Aeson 8577f8a48aa59342c21ea75ad3f7f399
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.FromJSON 7714ec7282aa30d928f3ccd4dc0ccb8c
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.Internal fac85f1bccfed0c745c2be58c41086d2
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.ToJSON bf718a3e5911692b9968dde471505305
+import  -/  base-4.10.1.0:Control.Applicative 99577a9c463ffe4790a1d37547a345bd
+import  -/  base-4.10.1.0:Control.Monad ebed2e8e7444944e0c1d827c6faf40a4
+import  -/  base-4.10.1.0:Data.Functor 2ffda4f936b8f474394d93205750aff3
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  Models 6d8dbe1ba87ac9767daa0e67699e7f57
+  exports: 632219e9b1473b8835d82aa2292c0d93
+  User 2bee6575e5277293835285ad5ee4e4ab
+  User 3abc38f2445edc808fe4d1ca33935a6e
+  userClient_id 3abc38f2445edc808fe4d1ca33935a6e
+  userName 3abc38f2445edc808fe4d1ca33935a6e
+import  -/  persistent-2.8.2:Database.Persist 54006025aad3312344665de9bde7df2c
+import  -/  persistent-2.8.2:Database.Persist.Class.PersistEntity e2240138fb1e2776214e2bd50dc15250
+c103b037ec0cb51688a573b1934625b2
+  $fFromJSONUser :: Data.Aeson.Types.FromJSON.FromJSON Models.User
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Models.User
+                  ModelsJson.$fFromJSONUser_$cparseJSON
+                  ModelsJson.$fFromJSONUser_$cparseJSONList -}
+dfecd61084580736c0048ffafc6f36a4
+  $fFromJSONUser1 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: (", encountered "#) -}
+3f43031fe780d136997dc131ef2d69d9
+  $fFromJSONUser2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("[a]"#) -}
+2545acbe6c6fb0a5f5c41869f4306a79
+  $fFromJSONUser3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("expected "#) -}
+c1fa9edcfc74dd93176dd335962a50e2
+  $fFromJSONUser_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Models.User
+  {- Arity: 1, Strictness: <S,1*U> -}
+5891fd8fd5396c6873d1bc8612e32acb
+  $fFromJSONUser_$cparseJSONList ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser [Models.User]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: Data.Aeson.Types.Internal.Value) ->
+                 case ds of wild {
+                   DEFAULT
+                   -> let {
+                        msg2 :: GHC.Base.String
+                        = GHC.CString.unpackAppendCString#
+                            ModelsJson.$fFromJSONUser3
+                            (GHC.CString.unpackAppendCString#
+                               ModelsJson.$fFromJSONUser2
+                               (GHC.CString.unpackAppendCString#
+                                  ModelsJson.$fFromJSONUser1
+                                  (case wild of wild1 {
+                                     Data.Aeson.Types.Internal.Object ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList10
+                                     Data.Aeson.Types.Internal.String ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList8
+                                     Data.Aeson.Types.Internal.Number ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList6
+                                     Data.Aeson.Types.Internal.Bool ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList4
+                                     Data.Aeson.Types.Internal.Null
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList1 })))
+                      } in
+                      (\ @ f4 :: * -> *
+                         @ r
+                         (path :: Data.Aeson.Types.Internal.JSONPath)
+                         (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                         (_ks :: Data.Aeson.Types.Internal.Success [Models.User] f4 r) ->
+                       kf
+                         (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                         msg2)
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.N:Parser[0] <[Models.User]>_R))
+                   Data.Aeson.Types.Internal.Array a2
+                   -> case a2 of wild1 { Data.Vector.Vector dt dt1 dt2 ->
+                      letrec {
+                        $wgo :: GHC.Prim.Int# -> [Data.Aeson.Types.Internal.Value]
+                          {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                        = \ (ww :: GHC.Prim.Int#) ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.>=# ww dt1) of wild2 {
+                            GHC.Types.False
+                            -> case GHC.Prim.indexArray#
+                                      @ Data.Aeson.Types.Internal.Value
+                                      dt2
+                                      (GHC.Prim.+# dt ww) of ds2 { Unit# ipv ->
+                               GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Value
+                                 ipv
+                                 ($wgo (GHC.Prim.+# ww 1#)) }
+                            GHC.Types.True -> GHC.Types.[] @ Data.Aeson.Types.Internal.Value }
+                      } in
+                      ModelsJson.$fFromJSONUser_go 0# ($wgo 0#) } }) -}
+dca110cb97e21b8514d71bc96b7f4013
+  $fFromJSONUser_go ::
+    GHC.Prim.Int#
+    -> [Data.Aeson.Types.Internal.Value]
+    -> Data.Aeson.Types.Internal.Parser [Models.User]
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+ef17b83b80124e3f454062e22038d1de
+  $fToJSONEntity ::
+    Data.Aeson.Types.ToJSON.ToJSON
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                  ModelsJson.$fToJSONEntity_$ctoJSON
+                  ModelsJson.$fToJSONEntity_$ctoEncoding
+                  ModelsJson.$fToJSONEntity_$ctoJSONList
+                  ModelsJson.$fToJSONEntity_$ctoEncodingList -}
+d18e3f8c20c278fceaed7478f71189e2
+  $fToJSONEntity1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   ModelsJson.$fToJSONEntity2) -}
+95bb7e255ab0a55d4d6c0587c3825365
+  $fToJSONEntity2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("client_id"#) -}
+beb65755b9c4d95c7688f815753c5f2e
+  $fToJSONEntity3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   ModelsJson.$fToJSONEntity4) -}
+9f6aa175a48c7d0711a58df16ad48bc3
+  $fToJSONEntity4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("name"#) -}
+1e2673d883dc080d13dab8ade8175d71
+  $fToJSONEntity5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   ModelsJson.$fToJSONEntity6) -}
+51aac6c9703914beeaa505ce83332991
+  $fToJSONEntity6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("id"#) -}
+681e91668b53295f358e902c18436bd1
+  $fToJSONEntity_$ctoEncoding ::
+    Database.Persist.Class.PersistEntity.Entity Models.User
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S(S(S)S(SS)),1*U(1*U(U),1*U(U,U))>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (x :: Database.Persist.Class.PersistEntity.Entity
+                           Models.User) ->
+                 Data.Aeson.Encoding.Builder.encodeToBuilder
+                   (ModelsJson.$fToJSONEntity_$ctoJSON x))
+                  `cast`
+                (<Database.Persist.Class.PersistEntity.Entity Models.User>_R
+                 ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                               <Data.Aeson.Types.Internal.Value>_P)) -}
+27908e1f0866ee5c5e7eed144f678db0
+  $fToJSONEntity_$ctoEncodingList ::
+    [Database.Persist.Class.PersistEntity.Entity Models.User]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (Data.Aeson.Encoding.Internal.list
+                   @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                   ModelsJson.$fToJSONEntity_$ctoEncoding) -}
+e3edc512f960b1758add956baee9e150
+  $fToJSONEntity_$ctoJSON ::
+    Database.Persist.Class.PersistEntity.Entity Models.User
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S(S(S)S(SS)),1*U(1*U(U),1*U(U,U))>m1,
+     Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Database.Persist.Class.PersistEntity.Entity
+                           Models.User) ->
+                 case w of ww { Database.Persist.Class.PersistEntity.Entity ww1 ww2 ->
+                 case ww1
+                        `cast`
+                      (Trans
+                           (Models.D:R:KeyUser0[0])
+                           (Trans
+                                (Models.N:R:KeyUser[0])
+                                (Trans
+                                     (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
+                                     (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))) of ww3 { GHC.Int.I64# ww4 ->
+                 case ww2 of ww5 { Models.User ww6 ww7 ->
+                 case ModelsJson.$w$ctoJSON ww4 ww6 ww7 of ww8 { Unit# ww9 ->
+                 Data.Aeson.Types.Internal.Object ww9 } } } }) -}
+81c42a9facd7a0995b46bf5ddbc87d42
+  $fToJSONEntity_$ctoJSONList ::
+    [Database.Persist.Class.PersistEntity.Entity Models.User]
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (x :: [Database.Persist.Class.PersistEntity.Entity
+                            Models.User]) ->
+                 Data.Aeson.Types.Internal.$WArray
+                   (Data.Vector.Generic.new
+                      @ Data.Vector.Vector
+                      @ Data.Aeson.Types.Internal.Value
+                      (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                      (Data.Vector.Generic.New.unstream
+                         @ Data.Vector.Vector
+                         @ Data.Aeson.Types.Internal.Value
+                         (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                         (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                            @ Data.Vector.Fusion.Util.Id
+                            @ Data.Aeson.Types.Internal.Value
+                            @ Data.Vector.Vector
+                            Data.Vector.Fusion.Util.$fMonadId
+                            Data.Vector.Fusion.Bundle.Size.Unknown
+                            (GHC.Base.build
+                               @ Data.Aeson.Types.Internal.Value
+                               (\ @ b1
+                                  (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                  (n1 :: b1)[OneShot] ->
+                                GHC.Base.foldr
+                                  @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                                  @ b1
+                                  (GHC.Base.mapFB
+                                     @ Data.Aeson.Types.Internal.Value
+                                     @ b1
+                                     @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                                     c
+                                     ModelsJson.$fToJSONEntity_$ctoJSON)
+                                  n1
+                                  x)))))) -}
+d5ce5fa0d2953a2fa9fecf3d044d1259
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   ModelsJson.$trModule3
+                   ModelsJson.$trModule1) -}
+09cb00061dd66583baf73d53f7d95ce1
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS ModelsJson.$trModule2) -}
+fe98a3cdbbcf465eca3c6b9060ac3b20
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ModelsJson"#) -}
+e1c9d327e7e9d1999a234b196d038f85
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS ModelsJson.$trModule4) -}
+aa5cdae51f18d4cb9f6a780fe85db63d
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+1d37e681b5c82214dc7b23e83a6a897e
+  $w$ctoJSON ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.Int#
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 3, Strictness: <S,U><L,U><S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Prim.Int#) ->
+                 case GHC.Integer.Type.smallInteger ww of dt { DEFAULT ->
+                 case ModelsJson.$fToJSONEntity5 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case Data.Aeson.Types.Internal.$w$sunsafeInsert
+                        @ Data.Aeson.Types.Internal.Value
+                        ww4
+                        ww5
+                        ww6
+                        (Data.Aeson.Types.Internal.Number
+                           (Data.Scientific.Scientific dt 0#))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of z23 { DEFAULT ->
+                 case ModelsJson.$fToJSONEntity3 of ww7 { Data.Text.Internal.Text ww8 ww9 ww10 ->
+                 case Data.Aeson.Types.Internal.$w$sunsafeInsert
+                        @ Data.Aeson.Types.Internal.Value
+                        ww8
+                        ww9
+                        ww10
+                        (Data.Aeson.Types.Internal.String ww1)
+                        z23 of z1 { DEFAULT ->
+                 case GHC.Integer.Type.smallInteger ww2 of dt1 { DEFAULT ->
+                 case ModelsJson.$fToJSONEntity1 of ww11 { Data.Text.Internal.Text ww12 ww13 ww14 ->
+                 case Data.Aeson.Types.Internal.$w$sunsafeInsert
+                        @ Data.Aeson.Types.Internal.Value
+                        ww12
+                        ww13
+                        ww14
+                        (Data.Aeson.Types.Internal.Number
+                           (Data.Scientific.Scientific dt1 0#))
+                        z1 of dt2 { DEFAULT ->
+                 (# dt2 #) } } } } } } } }) -}
+instance [orphan] Data.Aeson.Types.FromJSON.FromJSON [Models.User]
+  = ModelsJson.$fFromJSONUser
+instance [orphan] Data.Aeson.Types.ToJSON.ToJSON [Database.Persist.Class.PersistEntity.Entity]
+  = ModelsJson.$fToJSONEntity
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

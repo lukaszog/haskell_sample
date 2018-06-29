@@ -1,0 +1,6 @@
+Configuring wai-middleware-static-0.8.2...
+Preprocessing library for wai-middleware-static-0.8.2..
+Building library for wai-middleware-static-0.8.2..
+[1 of 1] Compiling Network.Wai.Middleware.Static ( Network/Wai/Middleware/Static.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/Wai/Middleware/Static.o )
+Installing library in /home/lukasz/.stack/snapshots/x86_64-linux/lts-11.15/8.2.2/lib/x86_64-linux-ghc-8.2.2/wai-middleware-static-0.8.2-GrCuygiduL4IygdB2ELelg
+Registering library for wai-middleware-static-0.8.2..
